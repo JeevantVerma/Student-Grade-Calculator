@@ -18,15 +18,15 @@ def calculate_percentage(marks):
 
 
 def get_grade(percentage):
-    """Return a grade (A, B, C or D) based on the percentage."""
+    """Return a grade (Excellent, Good, Average or Poor) based on the percentage."""
     if percentage >= 90:
-        return "A"
+        return "Excellent"
     elif percentage >= 75:
-        return "B"
+        return "Good"
     elif percentage >= 50:
-        return "C"
+        return "Average"
     else:
-        return "D"
+        return "Poor"
 
 
 def read_marks(subject):

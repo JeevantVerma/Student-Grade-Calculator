@@ -13,10 +13,10 @@ practise Git branching and merge conflict resolution.
 
   | Percentage | Grade |
   |------------|-------|
-  | 90 and above | A |
-  | 75 – 89.99 | B |
-  | 50 – 74.99 | C |
-  | Below 50 | D |
+  | 90 and above | Excellent |
+  | 75 – 89.99 | Good |
+  | 50 – 74.99 | Average |
+  | Below 50 | Poor |
 
 - No external libraries — uses only the Python standard library
 
@@ -60,7 +60,7 @@ Enter marks for English (0-100): 78
 Name       : Riya
 Total      : 255 / 300
 Percentage : 85.00%
-Grade      : B
+Grade      : Good
 ```
 
 ## Project Structure
@@ -74,7 +74,7 @@ Student Grade Calculator/
 ## How the Code Works
 
 - `calculate_percentage(marks)` – adds the marks and converts them to a percentage.
-- `get_grade(percentage)` – returns `A`, `B`, `C`, or `D` based on the percentage.
+- `get_grade(percentage)` – returns `Excellent`, `Good`, `Average`, or `Poor` based on the percentage.
 - `read_marks(subject)` – asks for marks and keeps asking until a valid number is entered.
 - `main()` – runs the program and prints the result.
 
