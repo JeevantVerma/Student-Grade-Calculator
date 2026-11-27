@@ -13,10 +13,10 @@ practise Git branching and merge conflict resolution.
 
   | Percentage | Grade |
   |------------|-------|
-  | 90 and above | A |
-  | 75 – 89.99 | B |
-  | 50 – 74.99 | C |
-  | Below 50 | D |
+  | 85 and above | A |
+  | 70 – 84.99 | B |
+  | 40 – 69.99 | C |
+  | Below 40 | D |
 
 - No external libraries — uses only the Python standard library
 
@@ -82,5 +82,5 @@ Student Grade Calculator/
 
 This project is used to demonstrate a Git merge conflict. The `get_grade()`
 function in `main.py` is the place to edit: change the **same line** (for example
-the grade A threshold, `if percentage >= 90:`) to different values in two
+the grade A threshold, `if percentage >= 85:`) to different values in two
 branches, then merge them to produce a conflict and resolve it.
